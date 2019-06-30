@@ -1,0 +1,21 @@
+#overlay {
+    position: absolute;
+    opacity: 0.1;
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 0;
+}
+
+#chart {
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip {
+    font-size: 1.5em;
+    font-family: 'DM Serif Text', serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
